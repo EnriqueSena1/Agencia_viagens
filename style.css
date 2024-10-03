@@ -29,6 +29,7 @@ a{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 0 0 0 200px;
+    align-items: center;
     
 }
     
@@ -68,11 +69,21 @@ p{
 }
 
 .buttonclica{
+    
     width: 130px;
     height: 35px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .primeira_ima{
     width: 300px;
     height: 250px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
 }
